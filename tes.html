@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tes</title>
+    <link rel="stylesheet" href="bulma.css">
+</head>
+<body class="has-background-light">
+    <div class="columns">
+        <div class="column"></div>
+        <div class="column is-four-fifths">
+            <h1 class="title" id="title1"> Ini Titlenya</h1>
+            <h2 class="subtitle">Title diatas akan berubah sesuai button yg diklik</h2>
+            <input class="input" oninput="changetitle()" id="input1">
+            <br>
+            <br>
+            <button class="button is-danger is-rounded" onclick= "changecolor(`red`)">merah</button>
+            <button class="button is-info is-rounded" onclick= "changecolor(`blue`)">biru</button>
+            <button class="button is-success is-rounded" onclick= "changecolor(`green`)">hijau</button>
+            <button class="button is-rounded" onclick= "changecolor(`black`)">hitam</button>
+            <script src="tes.js"></script>
+        </div>
+        <div class="column"></div>
+      </div>
+    
+</body>
+</html>
